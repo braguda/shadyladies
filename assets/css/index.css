@@ -1,0 +1,19 @@
+@font-face{
+    font-family: "Rochester";
+    src: url("../fonts/Rochester-Regular.ttf");
+}
+
+@font-face{
+    font-family: "PoiretOne";
+    src: url("../fonts/PoiretOne-Regular.ttf");
+}
+
+.container{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+#gif-display{
+    background-color: whitesmoke;
+}
