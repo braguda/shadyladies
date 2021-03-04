@@ -13,24 +13,26 @@
 <body class="background-3 bg-dark">
     <div class="container">
         <div class="topper text-white">
-            The Tea, The Shade, and The Pink Lemonade
+            <p class="title"><b>The Tea, The Shade, and The Pink Lemonade</b></p>
         </div>
-        <div class="header row"></div>
+        <div id="header">
+
+        </div>
         <div class="row">
             <div class="col-sm-8" id="gif-display"></div>
-            <div class="background-2 col-sm-4">
-                <form id="newGif">
-                    <input id="moreWives" type="text" />
-                    <input id="renderBtn" type="submit" />
-                    <button id="clearBtn">Reset</button>
-                </form>
-                <br>
-                <p class="text-white">
-                    Type your favorite Shady Lady here
+            <div class="form-div col-sm-4">
+                <p>
+                    <h3 class="text-white">Type your favorite Shady Lady here</h3>
                 </p>
                 <br>
-                <p class="text-white">
-                    Or just type whatever gif you wanna see. It's totally up to you. 
+                <form id="newGif">
+                    <input id="moreWives" type="text" />
+                    <input class="btn btn-dark" id="renderBtn" type="submit" />
+                    <button class="btn btn-dark" id="clearBtn">Reset</button>
+                </form>
+                <br>
+                <p>
+                    <h3 class="text-white">Or just type whatever gif you wanna see. It's totally up to you.</h3> 
                 </p>
             </div>
         </div>
