@@ -9,7 +9,7 @@ $(document).ready(() => {
             let ladyBtn = $("<button>");
             ladyBtn.text(shadyLadies[i]);
             ladyBtn.addClass("btn");
-            ladyBtn.addClass("btn-dark");
+            ladyBtn.addClass("btn-light");
             ladyBtn.attr("data-name", shadyLadies[i]);
             $("#header").append(ladyBtn);
         }
