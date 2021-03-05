@@ -54,10 +54,22 @@
     background-size: cover;
     overflow: auto;
     height: 400px;
+    border: 10px double rgb(56, 55, 55);
+    text-align: center;
+}
+
+.gifs{
+    margin: 10px;
+    width: 350px;
+    height: 200px;
 }
 
 #header{
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
+}
+
+.btn{
+    font-family: PoiretOne, sans-serif;
 }
